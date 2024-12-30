@@ -138,3 +138,19 @@
 [30Dec2024 03:28:30.396] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Keiow lost connection: Disconnected
 [30Dec2024 03:28:30.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Keiow left the game
 [30Dec2024 03:28:30.401] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Keiow
+[30Dec2024 03:34:15.276] [Server thread/INFO] [luckperms/]: Starting shutdown process...
+[30Dec2024 03:34:15.278] [Server thread/INFO] [luckperms/]: Closing storage...
+[30Dec2024 03:34:15.295] [Server thread/INFO] [luckperms/]: Goodbye!
+[30Dec2024 03:34:15.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30Dec2024 03:34:15.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30Dec2024 03:34:15.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30Dec2024 03:34:16.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[30Dec2024 03:34:17.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[30Dec2024 03:34:17.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[30Dec2024 03:34:17.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[30Dec2024 03:34:17.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30Dec2024 03:34:17.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30Dec2024 03:34:17.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30Dec2024 03:34:17.200] [Server thread/INFO] [Framework/]: Unloading server configs...
+[30Dec2024 03:34:17.202] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
+[30Dec2024 03:34:17.203] [Server thread/INFO] [Framework/]: Finished unloading server configs
