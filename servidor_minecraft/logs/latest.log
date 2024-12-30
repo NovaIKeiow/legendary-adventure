@@ -1,140 +1,175 @@
-[30Dec2024 03:35:12.078] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[30Dec2024 03:35:12.083] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[30Dec2024 03:35:12.323] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[30Dec2024 03:35:12.385] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/legendary-adventure/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[30Dec2024 03:35:12.878] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-adventure/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[30Dec2024 03:35:12.879] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-adventure/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Dec2024 03:35:12.881] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-adventure/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Dec2024 03:35:12.885] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/legendary-adventure/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[30Dec2024 03:35:13.106] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[30Dec2024 03:35:16.044] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[30Dec2024 03:35:16.068] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
-[30Dec2024 03:35:16.122] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[30Dec2024 03:35:16.168] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Dec2024 03:35:16.168] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Dec2024 03:35:16.171] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Dec2024 03:35:16.172] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Dec2024 03:35:16.172] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[30Dec2024 03:35:26.535] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.AnimationsConfig.
-[30Dec2024 03:35:26.536] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.AnimationsConfig read successfully.
-[30Dec2024 03:35:26.547] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.animation_overhaul.config.PlayerConfig.
-[30Dec2024 03:35:26.552] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.animation_overhaul.config.PlayerConfig read successfully.
-[30Dec2024 03:35:26.561] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
-[30Dec2024 03:35:26.562] [modloading-worker-0/INFO] [animation_overhaul/]: Animation Overhaul's Config initialized
-[30Dec2024 03:35:26.796] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[30Dec2024 03:35:26.797] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[30Dec2024 03:35:27.061] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.87.
-[30Dec2024 03:35:27.768] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
-[30Dec2024 03:35:27.769] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
-[30Dec2024 03:35:27.775] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
-[30Dec2024 03:35:27.778] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
-[30Dec2024 03:35:27.870] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
-[30Dec2024 03:35:27.877] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
-[30Dec2024 03:35:27.878] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
-[30Dec2024 03:35:27.878] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
-[30Dec2024 03:35:28.509] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Starting version check at https://mrcrayfish.com/modupdatejson?id=backpacked
-[30Dec2024 03:35:29.429] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:unlock_tracker for minecraft:player
-[30Dec2024 03:35:29.429] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key backpacked:trader_pickpocketing for minecraft:wandering_trader
-[30Dec2024 03:35:29.557] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[30Dec2024 03:35:29.559] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[30Dec2024 03:35:29.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [backpacked] Found status: BETA Current: 3.0.0-beta.9 Target: 3.0.0-beta.9
-[30Dec2024 03:35:29.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
-[30Dec2024 03:35:30.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.27 Target: null
-[30Dec2024 03:35:30.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Starting version check at https://api.modrinth.com/updates/cobweb/forge_updates.json
-[30Dec2024 03:35:30.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cobweb] Found status: UP_TO_DATE Current: 1.0.0 Target: null
-[30Dec2024 03:35:30.616] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harvest_with_ease] Starting version check at https://api.modrinth.com/updates/harvest-with-ease/forge_updates.json
-[30Dec2024 03:35:30.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [harvest_with_ease] Found status: UP_TO_DATE Current: 9.4.0 Target: null
-[30Dec2024 03:35:30.666] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[30Dec2024 03:35:31.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[30Dec2024 03:35:31.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[30Dec2024 03:35:31.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.22
-[30Dec2024 03:35:31.174] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[30Dec2024 03:35:31.277] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.19 Target: null
-[30Dec2024 03:35:33.020] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[30Dec2024 03:35:34.948] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
-[30Dec2024 03:35:34.949] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/legendary-adventure/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
-[30Dec2024 03:35:39.075] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[30Dec2024 03:35:39.318] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1281 advancements
-[30Dec2024 03:35:39.372] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
-[30Dec2024 03:35:39.382] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[30Dec2024 03:35:40.326] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[30Dec2024 03:35:40.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30Dec2024 03:35:40.327] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30Dec2024 03:35:40.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30Dec2024 03:35:40.654] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[30Dec2024 03:35:40.688] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[30Dec2024 03:35:40.826] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[30Dec2024 03:35:40.826] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[30Dec2024 03:35:40.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[30Dec2024 03:35:40.827] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[30Dec2024 03:35:41.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:         __    
-[30Dec2024 03:35:41.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |    |__)   LuckPerms v5.4.102
-[30Dec2024 03:35:41.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]:   |___ |      Running on Forge - Forge
-[30Dec2024 03:35:41.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 
-[30Dec2024 03:35:41.062] [Server thread/INFO] [luckperms/]: Loading configuration...
-[30Dec2024 03:35:41.354] [Server thread/INFO] [luckperms/]: Loading storage provider... [H2]
-[30Dec2024 03:35:41.960] [Server thread/INFO] [luckperms/]: Loading internal permission managers...
-[30Dec2024 03:35:42.048] [Server thread/INFO] [luckperms/]: Performing initial data load...
-[30Dec2024 03:35:42.140] [Server thread/INFO] [luckperms/]: Successfully enabled. (took 14235ms)
-[30Dec2024 03:35:42.150] [Server thread/INFO] [Framework/]: Loading server configs...
-[30Dec2024 03:35:42.347] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30Dec2024 03:35:54.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[30Dec2024 03:36:03.139] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.143] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.144] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.144] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.145] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.146] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.147] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.153] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.155] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.159] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.159] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.160] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.162] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.164] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.175] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.183] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.378] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:03.875] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:04.374] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:04.876] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[30Dec2024 03:36:05.905] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11031 ms
-[30Dec2024 03:36:05.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (25.066s)! For help, type "help"
-[30Dec2024 03:36:05.951] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler luckperms:permission_handler
-[30Dec2024 03:36:05.963] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[30Dec2024 03:36:06.000] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'heart-elevation.gl.at.ply.gg:1709'
-[30Dec2024 03:36:06.005] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 1709
-[30Dec2024 03:36:15.572] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Keiow[/127.253.172.142:36313] logged in with entity id 333 at (84.7445475467248, 69.0, 140.2464789281003)
-[30Dec2024 03:36:15.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Keiow joined the game
-[30Dec2024 03:36:16.249] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Keiow (18)
-[30Dec2024 03:36:16.257] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Keiow
-[30Dec2024 03:36:17.947] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player cecdfaba-d668-3d27-b925-bb03db076789
-[30Dec2024 03:36:18.943] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player cecdfaba-d668-3d27-b925-bb03db076789
-[30Dec2024 03:36:18.947] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Keiow (cecdfaba-d668-3d27-b925-bb03db076789) successfully connected to voice chat
-[30Dec2024 03:37:15.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[30Dec2024 03:37:15.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: keiow gamemode<--[HERE]
-[30Dec2024 03:37:17.318] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player cecdfaba-d668-3d27-b925-bb03db076789 timed out
-[30Dec2024 03:37:17.319] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Reconnecting player Keiow
-[30Dec2024 03:37:17.319] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Sent secret to Keiow
-[30Dec2024 03:37:30.752] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Keiow lost connection: Timed out
-[30Dec2024 03:37:30.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Keiow left the game
-[30Dec2024 03:37:30.755] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Keiow
-[30Dec2024 03:37:54.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[30Dec2024 03:37:54.198] [Server thread/INFO] [luckperms/]: Starting shutdown process...
-[30Dec2024 03:37:54.200] [Server thread/INFO] [luckperms/]: Closing storage...
-[30Dec2024 03:37:54.228] [Server thread/INFO] [luckperms/]: Goodbye!
-[30Dec2024 03:37:54.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[30Dec2024 03:37:54.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[30Dec2024 03:37:54.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[30Dec2024 03:37:56.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[30Dec2024 03:37:56.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[30Dec2024 03:37:56.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[30Dec2024 03:37:56.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[30Dec2024 03:37:56.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[30Dec2024 03:37:56.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[30Dec2024 03:37:56.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[30Dec2024 03:37:56.607] [Server thread/INFO] [Framework/]: Unloading server configs...
-[30Dec2024 03:37:56.609] [Server thread/INFO] [Framework/]: Sending config unload event for backpacked.server.toml
-[30Dec2024 03:37:56.612] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[04:51:55] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:51:57] [ServerMain/INFO]: Loaded 7 recipes
+[04:51:58] [ServerMain/INFO]: Loaded 1271 advancements
+[04:51:58] [Server thread/INFO]: Starting minecraft server version 1.20
+[04:51:58] [Server thread/INFO]: Loading properties
+[04:51:58] [Server thread/INFO]: Default game type: SURVIVAL
+[04:51:58] [Server thread/INFO]: Generating keypair
+[04:51:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:51:58] [Server thread/INFO]: Using epoll channel type
+[04:51:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:51:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:51:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:51:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:51:59] [Server thread/INFO]: Preparing level "world"
+[04:52:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:15] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[04:52:18] [Server thread/INFO]: Time elapsed: 12157 ms
+[04:52:18] [Server thread/INFO]: Done (18.938s)! For help, type "help"
+[04:52:24] [Server thread/INFO]: Keiow[/127.192.210.179:43603] logged in with entity id 226 at (30.5, 73.0, -63.5)
+[04:52:24] [Server thread/INFO]: Keiow joined the game
+[04:52:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2119ms or 42 ticks behind
+[04:52:30] [Server thread/INFO]: Ianbisio[/127.122.40.145:46565] logged in with entity id 277 at (22.5, 73.0, -62.5)
+[04:52:30] [Server thread/INFO]: Ianbisio joined the game
+[04:53:17] [Server thread/INFO]: Awisom[/127.41.183.141:58739] logged in with entity id 402 at (34.5, 73.0, -66.5)
+[04:53:17] [Server thread/INFO]: Awisom joined the game
+[04:58:08] [Server thread/INFO]: Awisom has made the advancement [Stone Age]
+[04:58:31] [Server thread/INFO]: Awisom has made the advancement [Getting an Upgrade]
+[04:58:45] [Server thread/INFO]: Ianbisio has made the advancement [Stone Age]
+[04:59:50] [Server thread/INFO]: Keiow has made the advancement [Stone Age]
+[05:00:21] [Server thread/INFO]: Made Keiow a server operator
+[05:00:45] [Server thread/INFO]: Awisom has made the advancement [Monster Hunter]
+[05:03:16] [Server thread/INFO]: Keiow has made the advancement [Monster Hunter]
+[05:05:02] [Server thread/INFO]: Awisom has made the advancement [Acquire Hardware]
+[05:05:18] [Server thread/INFO]: Awisom has made the advancement [Isn't It Iron Pick]
+[05:05:19] [Server thread/INFO]: Keiow was blown up by Creeper
+[05:05:28] [Server thread/INFO]: Ianbisio has made the advancement [Getting an Upgrade]
+[05:06:06] [Server thread/INFO]: [Keiow: Set the time to 1000]
+[05:06:46] [Server thread/INFO]: Awisom has made the advancement [Suit Up]
+[05:08:58] [Server thread/INFO]: Keiow lost connection: Disconnected
+[05:08:58] [Server thread/INFO]: Keiow left the game
+[05:11:49] [Server thread/INFO]: Keiow[/127.192.210.179:39169] logged in with entity id 6015 at (75.35984000781227, 58.0, 178.08481675244482)
+[05:11:49] [Server thread/INFO]: Keiow joined the game
+[05:11:50] [Server thread/INFO]: Keiow lost connection: Disconnected
+[05:11:50] [Server thread/INFO]: Keiow left the game
+[05:14:57] [Server thread/INFO]: Keiow[/127.192.210.179:41971] logged in with entity id 6655 at (75.35984000781227, 58.0, 178.08481675244482)
+[05:14:57] [Server thread/INFO]: Keiow joined the game
+[05:15:07] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:15:19] [Server thread/INFO]: [Keiow: Teleported Awisom to Ianbisio]
+[05:15:45] [Server thread/INFO]: Keiow lost connection: Disconnected
+[05:15:45] [Server thread/INFO]: Keiow left the game
+[05:15:51] [Server thread/INFO]: Awisom has made the advancement [Diamonds!]
+[05:15:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[05:15:59] [Server thread/INFO]: vop Ianbisio<--[HERE]
+[05:16:10] [Server thread/INFO]: Made Awisom a server operator
+[05:16:20] [Server thread/INFO]: Made Ianbisio a server operator
+[05:16:23] [Server thread/INFO]: Keiow[/127.192.210.179:54783] logged in with entity id 7087 at (-187.69999998807907, -24.0, -239.69067185170428)
+[05:16:23] [Server thread/INFO]: Keiow joined the game
+[05:16:32] [Server thread/INFO]: [Keiow: Set own game mode to Creative Mode]
+[05:16:37] [Server thread/INFO]: Keiow has made the advancement [Cover Me with Diamonds]
+[05:16:49] [Server thread/INFO]: [Keiow: Set own game mode to Survival Mode]
+[05:17:19] [Server thread/INFO]: Awisom lost connection: Disconnected
+[05:17:19] [Server thread/INFO]: Awisom left the game
+[05:17:19] [Server thread/WARN]: handleDisconnection() called twice
+[05:17:30] [Server thread/INFO]: [Keiow: Teleported Ianbisio to -206.750000, 100.000000, -232.500000]
+[05:17:30] [Server thread/INFO]: Awisom[/127.41.183.141:43863] logged in with entity id 7214 at (-194.90456445253048, -24.0, -242.699144991869)
+[05:17:30] [Server thread/INFO]: Awisom joined the game
+[05:17:44] [Server thread/INFO]: Keiow was slain by Zombie
+[05:17:45] [Server thread/INFO]: Awisom lost connection: Disconnected
+[05:17:45] [Server thread/INFO]: Awisom left the game
+[05:17:49] [Server thread/INFO]: Awisom[/127.41.183.141:34811] logged in with entity id 7488 at (-194.90456445253048, -24.0, -242.699144991869)
+[05:17:49] [Server thread/INFO]: Awisom joined the game
+[05:18:16] [Server thread/INFO]: [Keiow: Teleported Awisom to -206.750000, 100.000000, -232.500000]
+[05:18:18] [Server thread/WARN]: Awisom moved too quickly! -0.8888826506465364,-10.552241243705595,-0.3381800565842923
+[05:18:32] [Server thread/INFO]: Ianbisio has made the advancement [Acquire Hardware]
+[05:18:44] [Server thread/INFO]: [Keiow: Teleported Awisom to Ianbisio]
+[05:19:00] [Server thread/INFO]: [Keiow: Teleported Keiow to Awisom]
+[05:20:24] [Server thread/INFO]: Keiow has made the advancement [Acquire Hardware]
+[05:20:48] [Server thread/INFO]: Ianbisio has made the advancement [Isn't It Iron Pick]
+[05:24:00] [Server thread/INFO]: Ianbisio was slain by Zombie
+[05:24:13] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Awisom]
+[05:32:53] [Server thread/INFO]: Ianbisio has made the advancement [Monster Hunter]
+[05:34:08] [Server thread/INFO]: Keiow lost connection: Disconnected
+[05:34:08] [Server thread/INFO]: Keiow left the game
+[05:34:14] [Server thread/INFO]: Keiow[/127.192.210.179:53223] logged in with entity id 12036 at (-220.90047138828086, 66.0, -130.69298585454814)
+[05:34:14] [Server thread/INFO]: Keiow joined the game
+[05:34:21] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Awisom]
+[05:34:42] [Server thread/INFO]: Awisom has made the advancement [Ice Bucket Challenge]
+[05:36:02] [Server thread/INFO]: Awisom has made the advancement [Hot Stuff]
+[05:36:26] [Server thread/INFO]: Keiow lost connection: Disconnected
+[05:36:26] [Server thread/INFO]: Keiow left the game
+[05:38:19] [Server thread/INFO]: Keiow[/127.192.210.179:41175] logged in with entity id 13055 at (-220.90047138828086, 66.0, -130.69298585454814)
+[05:38:19] [Server thread/INFO]: Keiow joined the game
+[05:39:36] [Server thread/INFO]: Awisom has made the advancement [We Need to Go Deeper]
+[05:39:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5527ms or 110 ticks behind
+[05:39:40] [Server thread/INFO]: Keiow lost connection: Disconnected
+[05:39:40] [Server thread/INFO]: Keiow left the game
+[05:40:17] [Server thread/INFO]: Ianbisio has made the advancement [Suit Up]
+[05:41:13] [Server thread/INFO]: Ianbisio has made the advancement [We Need to Go Deeper]
+[05:44:24] [Server thread/INFO]: Keiow[/127.192.210.179:41819] logged in with entity id 14932 at (-202.23319098430628, 65.0, -114.30000001192093)
+[05:44:24] [Server thread/INFO]: Keiow joined the game
+[05:44:31] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Awisom]
+[05:44:45] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Awisom]
+[05:44:51] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Keiow]
+[05:45:35] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Awisom]
+[05:45:42] [Server thread/INFO]: [Awisom: Teleported Awisom to Keiow]
+[05:45:58] [Server thread/INFO]: [Awisom: Teleported Awisom to Keiow]
+[05:46:06] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Keiow]
+[05:46:06] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Keiow]
+[05:46:28] [Server thread/INFO]: [Not Secure] <Keiow> ./tp Awisom
+[05:54:40] [Server thread/WARN]: Mismatch in destroy block pos: gu{x=134, y=68, z=706} gu{x=132, y=68, z=705}
+[05:58:10] [Server thread/INFO]: Keiow was slain by Zombie
+[05:58:20] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:22] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:23] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:23] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:24] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:25] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:26] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:26] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:27] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:28] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:28] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:29] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:30] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:30] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:38] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:40] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:45] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:47] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:48] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:50] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:58:51] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:59:30] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Keiow]
+[05:59:35] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Keiow]
+[05:59:50] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:59:50] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:59:51] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:59:51] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Awisom]
+[05:59:52] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[05:59:52] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[06:00:29] [Server thread/INFO]: [Keiow: Teleported Keiow to Ianbisio]
+[06:01:26] [Server thread/INFO]: Ianbisio drowned
+[06:02:15] [Server thread/INFO]: [Awisom: Teleported Ianbisio to Awisom]
+[06:04:55] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Keiow]
+[06:05:00] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Awisom]
+[06:05:07] [Server thread/INFO]: [Keiow: Teleported Ianbisio to Awisom]
+[06:05:10] [Server thread/INFO]: Ianbisio lost connection: Disconnected
+[06:05:10] [Server thread/INFO]: Ianbisio left the game
+[06:05:41] [Server thread/INFO]: Keiow lost connection: Disconnected
+[06:05:41] [Server thread/INFO]: Keiow left the game
+[06:05:50] [Server thread/INFO]: Awisom lost connection: Disconnected
+[06:05:50] [Server thread/INFO]: Awisom left the game
